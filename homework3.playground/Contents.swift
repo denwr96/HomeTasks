@@ -11,14 +11,17 @@ import UIKit
 var deposit = 500000.00
 var rate = 0.05
 var period: Int = 5
-var profit: Double
+var profit:Double = 0.0
+var profitInYear: Double
+//var finalProfit: Double
 
-for period in 1...period {
-    profit = deposit * rate * Double(period)
-    print("Amount of income after \(period) years will be \(profit) Eur. My total deposit will be \(deposit + profit) Eur !")
+for _ in 1...period {
+    profitInYear = deposit * rate 
+    deposit += profitInYear
+    profit += profitInYear
 }
 
-
+print("Amount of income after \(period) years will be \(profit) Eur. My total deposit will be \(deposit) Eur !")
 
 /*
  Exercise 2
@@ -28,9 +31,9 @@ for period in 1...period {
 
 var arrayOfInteger = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-for i in 0..<arrayOfInteger.count {
-    if arrayOfInteger[i] % 2 == 0 {
-        print("My even numbers are: \(arrayOfInteger[i])")
+for i in arrayOfInteger {
+    if i % 2 == 0 {
+        print("My even numbers are: \(i)")
     }
 }
 
