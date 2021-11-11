@@ -52,16 +52,10 @@ calculateCash(wallet: wallet)
  */
 //
 func isEvenNumber(number a: Int) -> Bool {
-    let isEven: Bool
-    if a % 2 == 0 {
-        isEven = true
-    } else {
-        isEven = false
-    }
-    return isEven
+    return a % 2 == 0
 }
 
-isEvenNumber(number: 10)
+isEvenNumber(number: 9)
 
 /*
  Exercise 4
