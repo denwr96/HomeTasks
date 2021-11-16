@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		272256EA27429D230006D1B7 /* AppearenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272256E927429D230006D1B7 /* AppearenceViewController.swift */; };
-		272256EC2742A11C0006D1B7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272256EB2742A11C0006D1B7 /* InfoViewController.swift */; };
-		277A2D2227415CEB0022194B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A2D2127415CEB0022194B /* AppDelegate.swift */; };
-		277A2D2427415CEB0022194B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A2D2327415CEB0022194B /* SceneDelegate.swift */; };
-		277A2D2627415CEB0022194B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A2D2527415CEB0022194B /* ViewController.swift */; };
-		277A2D2927415CEB0022194B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277A2D2727415CEB0022194B /* Main.storyboard */; };
-		277A2D2B27415CEF0022194B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277A2D2A27415CEF0022194B /* Assets.xcassets */; };
-		277A2D2E27415CEF0022194B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277A2D2C27415CEF0022194B /* LaunchScreen.storyboard */; };
+		276C0B542742D7C000037B30 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C0B532742D7C000037B30 /* TestViewController.swift */; };
+		686B3CFB273FB91500A7550A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B3CFA273FB91500A7550A /* AppDelegate.swift */; };
+		686B3CFD273FB91500A7550A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B3CFC273FB91500A7550A /* SceneDelegate.swift */; };
+		686B3CFF273FB91500A7550A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B3CFE273FB91500A7550A /* ViewController.swift */; };
+		686B3D02273FB91500A7550A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686B3D00273FB91500A7550A /* Main.storyboard */; };
+		686B3D04273FB91600A7550A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686B3D03273FB91600A7550A /* Assets.xcassets */; };
+		686B3D07273FB91600A7550A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686B3D05273FB91600A7550A /* LaunchScreen.storyboard */; };
+		686E3B1527429D2200BC5638 /* AppearenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E3B1427429D2200BC5638 /* AppearenceViewController.swift */; };
+		686E3B172742A10E00BC5638 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E3B162742A10E00BC5638 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		272256E927429D230006D1B7 /* AppearenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearenceViewController.swift; sourceTree = "<group>"; };
-		272256EB2742A11C0006D1B7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		277A2D1E27415CEB0022194B /* DayFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		277A2D2127415CEB0022194B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		277A2D2327415CEB0022194B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		277A2D2527415CEB0022194B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		277A2D2827415CEB0022194B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		277A2D2A27415CEF0022194B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		277A2D2D27415CEF0022194B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		277A2D2F27415CEF0022194B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276C0B532742D7C000037B30 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		686B3CF7273FB91500A7550A /* WeekDayFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekDayFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		686B3CFA273FB91500A7550A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		686B3CFC273FB91500A7550A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		686B3CFE273FB91500A7550A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		686B3D01273FB91500A7550A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		686B3D03273FB91600A7550A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		686B3D06273FB91600A7550A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		686B3D08273FB91600A7550A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		686E3B1427429D2200BC5638 /* AppearenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearenceViewController.swift; sourceTree = "<group>"; };
+		686E3B162742A10E00BC5638 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		277A2D1B27415CEB0022194B /* Frameworks */ = {
+		686B3CF4273FB91500A7550A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +43,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		272256E627429BF90006D1B7 /* Delegate */ = {
+		686B3CEE273FB91500A7550A = {
 			isa = PBXGroup;
 			children = (
-				277A2D2127415CEB0022194B /* AppDelegate.swift */,
-				277A2D2327415CEB0022194B /* SceneDelegate.swift */,
-			);
-			path = Delegate;
-			sourceTree = "<group>";
-		};
-		272256E727429C0E0006D1B7 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				277A2D2527415CEB0022194B /* ViewController.swift */,
-				272256E927429D230006D1B7 /* AppearenceViewController.swift */,
-				272256EB2742A11C0006D1B7 /* InfoViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		272256E827429C940006D1B7 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				277A2D2727415CEB0022194B /* Main.storyboard */,
-				277A2D2C27415CEF0022194B /* LaunchScreen.storyboard */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		277A2D1527415CEB0022194B = {
-			isa = PBXGroup;
-			children = (
-				277A2D2027415CEB0022194B /* DayFinder */,
-				277A2D1F27415CEB0022194B /* Products */,
+				686B3CF9273FB91500A7550A /* WeekDayFinder */,
+				686B3CF8273FB91500A7550A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		277A2D1F27415CEB0022194B /* Products */ = {
+		686B3CF8273FB91500A7550A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				277A2D1E27415CEB0022194B /* DayFinder.app */,
+				686B3CF7273FB91500A7550A /* WeekDayFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		277A2D2027415CEB0022194B /* DayFinder */ = {
+		686B3CF9273FB91500A7550A /* WeekDayFinder */ = {
 			isa = PBXGroup;
 			children = (
-				272256E627429BF90006D1B7 /* Delegate */,
-				272256E727429C0E0006D1B7 /* Controllers */,
-				272256E827429C940006D1B7 /* Views */,
-				277A2D2A27415CEF0022194B /* Assets.xcassets */,
-				277A2D2F27415CEF0022194B /* Info.plist */,
+				686E3B1127429BF800BC5638 /* Delegate */,
+				686E3B1227429C0500BC5638 /* Controllers */,
+				686E3B1327429C1A00BC5638 /* Views */,
+				686B3D03273FB91600A7550A /* Assets.xcassets */,
+				686B3D08273FB91600A7550A /* Info.plist */,
 			);
-			path = DayFinder;
+			path = WeekDayFinder;
+			sourceTree = "<group>";
+		};
+		686E3B1127429BF800BC5638 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				686B3CFA273FB91500A7550A /* AppDelegate.swift */,
+				686B3CFC273FB91500A7550A /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		686E3B1227429C0500BC5638 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				686B3CFE273FB91500A7550A /* ViewController.swift */,
+				686E3B1427429D2200BC5638 /* AppearenceViewController.swift */,
+				686E3B162742A10E00BC5638 /* InfoViewController.swift */,
+				276C0B532742D7C000037B30 /* TestViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		686E3B1327429C1A00BC5638 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				686B3D00273FB91500A7550A /* Main.storyboard */,
+				686B3D05273FB91600A7550A /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		277A2D1D27415CEB0022194B /* DayFinder */ = {
+		686B3CF6273FB91500A7550A /* WeekDayFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 277A2D3227415CEF0022194B /* Build configuration list for PBXNativeTarget "DayFinder" */;
+			buildConfigurationList = 686B3D0B273FB91600A7550A /* Build configuration list for PBXNativeTarget "WeekDayFinder" */;
 			buildPhases = (
-				277A2D1A27415CEB0022194B /* Sources */,
-				277A2D1B27415CEB0022194B /* Frameworks */,
-				277A2D1C27415CEB0022194B /* Resources */,
+				686B3CF3273FB91500A7550A /* Sources */,
+				686B3CF4273FB91500A7550A /* Frameworks */,
+				686B3CF5273FB91500A7550A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DayFinder;
-			productName = DayFinder;
-			productReference = 277A2D1E27415CEB0022194B /* DayFinder.app */;
+			name = WeekDayFinder;
+			productName = WeekDayFinder;
+			productReference = 686B3CF7273FB91500A7550A /* WeekDayFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		277A2D1627415CEB0022194B /* Project object */ = {
+		686B3CEF273FB91500A7550A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					277A2D1D27415CEB0022194B = {
+					686B3CF6273FB91500A7550A = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 277A2D1927415CEB0022194B /* Build configuration list for PBXProject "DayFinder" */;
+			buildConfigurationList = 686B3CF2273FB91500A7550A /* Build configuration list for PBXProject "WeekDayFinder" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,57 +143,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 277A2D1527415CEB0022194B;
-			productRefGroup = 277A2D1F27415CEB0022194B /* Products */;
+			mainGroup = 686B3CEE273FB91500A7550A;
+			productRefGroup = 686B3CF8273FB91500A7550A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				277A2D1D27415CEB0022194B /* DayFinder */,
+				686B3CF6273FB91500A7550A /* WeekDayFinder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		277A2D1C27415CEB0022194B /* Resources */ = {
+		686B3CF5273FB91500A7550A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277A2D2E27415CEF0022194B /* LaunchScreen.storyboard in Resources */,
-				277A2D2B27415CEF0022194B /* Assets.xcassets in Resources */,
-				277A2D2927415CEB0022194B /* Main.storyboard in Resources */,
+				686B3D07273FB91600A7550A /* LaunchScreen.storyboard in Resources */,
+				686B3D04273FB91600A7550A /* Assets.xcassets in Resources */,
+				686B3D02273FB91500A7550A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		277A2D1A27415CEB0022194B /* Sources */ = {
+		686B3CF3273FB91500A7550A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				272256EA27429D230006D1B7 /* AppearenceViewController.swift in Sources */,
-				277A2D2627415CEB0022194B /* ViewController.swift in Sources */,
-				277A2D2227415CEB0022194B /* AppDelegate.swift in Sources */,
-				277A2D2427415CEB0022194B /* SceneDelegate.swift in Sources */,
-				272256EC2742A11C0006D1B7 /* InfoViewController.swift in Sources */,
+				686E3B1527429D2200BC5638 /* AppearenceViewController.swift in Sources */,
+				686B3CFF273FB91500A7550A /* ViewController.swift in Sources */,
+				686B3CFB273FB91500A7550A /* AppDelegate.swift in Sources */,
+				686B3CFD273FB91500A7550A /* SceneDelegate.swift in Sources */,
+				276C0B542742D7C000037B30 /* TestViewController.swift in Sources */,
+				686E3B172742A10E00BC5638 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		277A2D2727415CEB0022194B /* Main.storyboard */ = {
+		686B3D00273FB91500A7550A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				277A2D2827415CEB0022194B /* Base */,
+				686B3D01273FB91500A7550A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		277A2D2C27415CEF0022194B /* LaunchScreen.storyboard */ = {
+		686B3D05273FB91600A7550A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				277A2D2D27415CEF0022194B /* Base */,
+				686B3D06273FB91600A7550A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +202,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		277A2D3027415CEF0022194B /* Debug */ = {
+		686B3D09273FB91600A7550A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		277A2D3127415CEF0022194B /* Release */ = {
+		686B3D0A273FB91600A7550A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,27 +318,28 @@
 			};
 			name = Release;
 		};
-		277A2D3327415CEF0022194B /* Debug */ = {
+		686B3D0C273FB91600A7550A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A52LWX62FM;
+				DEVELOPMENT_TEAM = 5UT44ZH347;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DayFinder/Info.plist;
+				INFOPLIST_FILE = WeekDayFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bootcamp.DayFinder;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.up-co.WeekDayFinder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,27 +347,28 @@
 			};
 			name = Debug;
 		};
-		277A2D3427415CEF0022194B /* Release */ = {
+		686B3D0D273FB91600A7550A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A52LWX62FM;
+				DEVELOPMENT_TEAM = 5UT44ZH347;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DayFinder/Info.plist;
+				INFOPLIST_FILE = WeekDayFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bootcamp.DayFinder;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.up-co.WeekDayFinder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,25 +379,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		277A2D1927415CEB0022194B /* Build configuration list for PBXProject "DayFinder" */ = {
+		686B3CF2273FB91500A7550A /* Build configuration list for PBXProject "WeekDayFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				277A2D3027415CEF0022194B /* Debug */,
-				277A2D3127415CEF0022194B /* Release */,
+				686B3D09273FB91600A7550A /* Debug */,
+				686B3D0A273FB91600A7550A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		277A2D3227415CEF0022194B /* Build configuration list for PBXNativeTarget "DayFinder" */ = {
+		686B3D0B273FB91600A7550A /* Build configuration list for PBXNativeTarget "WeekDayFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				277A2D3327415CEF0022194B /* Debug */,
-				277A2D3427415CEF0022194B /* Release */,
+				686B3D0C273FB91600A7550A /* Debug */,
+				686B3D0D273FB91600A7550A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 277A2D1627415CEB0022194B /* Project object */;
+	rootObject = 686B3CEF273FB91500A7550A /* Project object */;
 }
